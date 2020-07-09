@@ -1,0 +1,31 @@
+andika "CCT TV JIHUDUMIE";
+andika "1. cct basic";
+andika "2. cct ordinary";
+andika "3. cct movies";
+andika "4. cct full";
+andika "5. cct soccer";
+
+hifadhi teule = dai ("weka chaguo lako hapa: ");
+
+wakati (teule < 6){
+	badilisha (teule){
+		kesi 1 :
+			andika "chaguo lako ni: " + teule ;
+			vunja;
+		kesi 2 :
+			andika "chaguo lako ni: " + teule ;
+			vunja;
+		kesi 3 :
+			andika "chaguo lako ni: " + teule ;
+			vunja;
+		kesi 4 :
+			andika "chaguo lako ni: " + teule ;
+			vunja;
+		kesi 5 :
+			andika "chaguo lako ni: " + teule ;
+			vunja;
+		zaidi : 
+			andika "umekosea tafadhali chagua tena";
+	}
+	
+	hifadhi teule = dai ("weka chagua lako hapa: ");
